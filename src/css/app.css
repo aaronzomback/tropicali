@@ -91,11 +91,13 @@ section.grid p {
   background-color: var(--primary-color);
 }
 
-section.centered{
+section.centered {
+  text-align: center;
   width: var(--centered-width);
   margin-left: auto;
   margin-right: auto;
 }
+
 
 @media (--mq-small) {
   section.grid{
